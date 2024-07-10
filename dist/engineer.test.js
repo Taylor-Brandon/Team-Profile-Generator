@@ -1,7 +1,7 @@
 const Engineer = require("../lib/engineer");
 
 describe('Engineer class', () => {
-    it('should return the name of an engineer after its parameters have been met', () => {
+    it('should return the engineer after its parameters have been met', () => {
         const newEngineer = new Engineer("Tyrion", 1, "t.lannister@gmail.com", "Tyrion-Lannister");
 
         expect(newEngineer.name).toEqual("Tyrion");
